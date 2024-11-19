@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ni Una Menos - Educación Sexual Integral</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Incluimos Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Fondo y color de texto principal */
+        body {
+            background-color: #574179; /* Violeta oscuro */
+            color: #fff; /* Texto blanco para contraste */
+        }
+ /* Estilos del header */
+ header {
+            position: relative; /* Necesario si deseas agregar capas sobre la imagen */
+            background-image: url('https://www.clarin.com/img/2022/06/03/Ktu5lTSdf_2000x1500__1.jpg'); /* Imagen de fondo */
+            background-size: cover; /* Asegura que la imagen cubra todo el área */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* No repetir la imagen */
+            height: 60vh; /* Alto del header (60% de la altura de la ventana) */
+            color: white; /* Color de texto blanco */
+            display: flex;
+            justify-content: center; /* Centra el contenido horizontalmente */
+            align-items: center; /* Centra el contenido verticalmente */
+            text-align: center; /* Centra el texto */
+        }
+
+        /* Fondo semitransparente sobre la imagen (opcional) */
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+            z-index: 1; /* Coloca la capa encima de la imagen pero debajo del contenido */
+        }
+
+        /* Contenido del header */
+        header .container {
+            position: relative;
+            z-index: 2; /* Asegura que el contenido esté encima de la capa oscura */
+        }
+
+        /* Estilo del título en el header */
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad */
+        }
+        /* Estilos de la barra de navegación */
+        .navbar {
+            background-color: #6a1b9a; /* Violeta vibrante */
+        }
+        .navbar-brand {
+            color: #fff !important;
+        }
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #f3e5f5 !important; /* Violeta más claro */
+        }
+
+        /* Botón principal */
+        .btn-primary {
+            background-color: #9c27b0;
+            border-color: #7b1fa2;
+        }
+        .btn-primary:hover {
+            background-color: #8e24aa;
+            border-color: #7b1fa2;
+        }
+
+        /* Tarjetas */
+        .card {
+            background-color: #9c4dcc; /* Violeta suave */
+            border: 1px solid #7b1fa2; /* Violeta más oscuro */
+            color: #fff;
+        }
+        .card-header {
+            background-color: #7b1fa2;
+            color: #fff;
+        }
+
+        /* Títulos */
+        h2 {
+            color: #bb86fc; /* Títulos en un violeta suave */
+            text-align: center;
+        }
+
+        /* Estilo del pie de página */
+        .footer {
+            background-color: #4a148c; /* Violeta oscuro para el footer */
+            color: #f3e5f5; /* Texto claro */
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .breadcrumb-item + .breadcrumb-item::before {
+            color: #bb86fc;
+        }
+
+        /* Estilos para el acordeón */
+        .accordion-button {
+            background-color: #9c27b0;
+            color: #fff;
+            border-radius: 0.5rem;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #8e24aa;
+            color: #fff;
+        }
+
+        .accordion-button:focus {
+            box-shadow: none; /* Eliminar sombra al hacer clic */
+        }
+
+        .accordion-item {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Ni Una Menos</a>
+            <!-- Botón para dispositivos pequeños (toggle button) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#esi">¿Qué es la ESI?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="antonellatp33.html">Ni una menos: movimiento</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="antonellatp32.html">Violencia de género</a></li>
+                    <li class="nav-item"><a class="nav-link" href="antonellatp32.html">Realizar Denuncias.</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galería "Ni Una Menos"</a></li>
+                </ul>
+                   <ul class="dropdown-menu"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Más Información
+                    </a>
+                </li>
+                   </ul>
+            </div>
+        </div>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#accordionInfo">Historia breve del Movimiento</a></li>
+                        <li><a class="dropdown-item" href="#impactoGlobal">Impacto Global</a></li>
+                        <li><a class="dropdown-item" href="#comoUnirse">Cómo Unirse</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<header>
+<!-- Sección de bienvenida -->
+<div class="container mt-5">
+    <h2>Ni Una Menos: Es hora de alzar la voz.</h2>
+    <p><strong>"Ni Una Menos" es un grito de lucha contra la violencia de género, pero también es un llamado urgente a la educación. La Educación Sexual Integral (ESI) nos enseña sobre el respeto, el consentimiento y la igualdad, herramientas clave para prevenir la violencia.</strong></p>
+</div>
+</header>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb container mt-3">
+        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Ni Una Menos</li>
+    </ol>
+</nav>
+
+<!-- Sección: ¿Qué es la ESI? -->
+<div class="container mt-5" id="esi">
+    <h2>¿Qué es la ESI?</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col mb-4">
+            <div class="card">
+                <div class="card-header"><strong>ESI:</strong> El derecho a la Educación Sexual Integral</div>
+                <div class="card-body">
+                    <p>ESI es un proceso educativo que integra la sexualidad en la vida cotidiana de niñas, niños y adolescentes. Aporta herramientas para prevenir la violencia, respetar la intimidad y cuidar de sus derechos.</p>
+                    <a href="https://www2.hcdn.gob.ar/institucional/observatorios/juventud/archivos/ESI_derecho_educacion_sexual_integral.pdf" class="btn btn-primary" target="_blank">Leer más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <div class="card-header">Objetivos del programa nacional "ESI"</div>
+                <div class="card-body">
+                    <ul>
+                        <li>Incorporar la educación sexual integral dentro de las propuestas educativas.</li>
+                        <li>Promover actitudes responsables ante la sexualidad.</li>
+                        <li>Prevenir problemas relacionados con la salud y la salud sexual.</li>
+                    </ul>
+                    <a href="https://www2.hcdn.gob.ar/institucional/observatorios/juventud/archivos/ESI_derecho_educacion_sexual_integral.pdf" class="btn btn-primary" target="_blank">Leer más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <div class="card-header">Ley 26150: Programa Nacional de Educación Sexual Integral</div>
+                <div class="card-body">
+                    <p><strong>Fecha de sanción: 04-10-2006</strong><br>Esta ley establece que todos los educandos tienen derecho a recibir ESI en los establecimientos educativos públicos y privados.</p>
+                    <a href="https://www.argentina.gob.ar/normativa/nacional/ley-26150-121222/texto" class="btn btn-primary" target="_blank">Leer más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Acordeón de Más Información -->
+<div class="container mt-5" id="accordionInfo">
+    <h2 class="text-center">Más Información</h2>
+    <div class="accordion" id="accordionExample">
+        <!-- Historia del Movimiento -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Historia del Movimiento
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    El movimiento "Ni Una Menos" nació en Argentina en 2015 tras el femicidio de la adolescente Chiara Paez, y se expandió a América Latina.
+                </div>
+            </div>
+        </div>
+        <!-- Impacto Global -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Impacto Global
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    El movimiento ha alcanzado dimensiones globales, sensibilizando a millones sobre la violencia de género y la igualdad.
+                </div>
+            </div>
+        </div>
+        <!-- Cómo Unirse -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    ¿Cómo Unirse?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Participa en las marchas, difunde el mensaje y apoya la causa. Es una lucha de todos los que creen en la igualdad.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+<p>Antonella Pastorino 5"c" <br>
+    EETP 669 <br>
+    profesora:Jaqueline Lingua. <br>
+    @2024 Todos los derechos reservados.  
+</footer>
+<!-- Scripts de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

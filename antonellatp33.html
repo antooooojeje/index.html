@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ni Una Menos - Movimiento y Lucha</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Incluimos Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Fondo y color de texto principal */
+        body {
+            background-color: #5d3e8c; /* Violeta oscuro */
+            color: #ffffff; /* Texto blanco para contraste */
+        }
+ /* Estilos del header */
+ header {
+            position: relative; /* Necesario si deseas agregar capas sobre la imagen */
+            background-image: url('https://www.clarin.com/img/2022/06/03/Ktu5lTSdf_2000x1500__1.jpg'); /* Imagen de fondo */
+            background-size: cover; /* Asegura que la imagen cubra todo el área */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* No repetir la imagen */
+            height: 60vh; /* Alto del header (60% de la altura de la ventana) */
+            color: rgb(255, 255, 255); /* Color de texto blanco */
+            display: flex;
+            justify-content: center; /* Centra el contenido horizontalmente */
+            align-items: center; /* Centra el contenido verticalmente */
+            text-align: center; /* Centra el texto */
+ }
+        /* Fondo semitransparente sobre la imagen (opcional) */
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+            z-index: 1; /* Coloca la capa encima de la imagen pero debajo del contenido */
+        }
+
+        /* Contenido del header */
+        header .container {
+            position: relative;
+            z-index: 2; /* Asegura que el contenido esté encima de la capa oscura */
+        }
+
+        /* Estilo del título en el header */
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad */
+        }
+        /* Estilos de la barra de navegación */
+        .navbar {
+            background-color: #50298f; /* Violeta vibrante */
+        }
+        .navbar-brand {
+            color: #ffffff !important;
+        }
+        .navbar-nav .nav-link {
+            color: #ffffff !important;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #f3e5f5 !important; /* Violeta más claro */
+        /* Botones */
+        .btn-primary {
+            background-color: #6a0dad;
+            border-color: #5d3e8c;
+        }
+
+        .btn-primary:hover {
+            background-color: #9c27b0;
+            border-color: #7b1fa2;
+        }
+
+        /* Tarjetas */
+        .card {
+            background-color: #9c4dcc; /* Violeta suave */
+            border: none;
+            margin-top: 20px;
+        }
+
+        .card-header {
+            background-color: #6a0dad;
+            color: #fff;
+        }
+
+        .breadcrumb-item + .breadcrumb-item::before {
+            color: #bb86fc;
+        }
+
+        /* Estilos para el acordeón */
+        .accordion-button {
+            background-color: #9c27b0;
+            color: #fff;
+            border-radius: 0.5rem;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #8e24aa;
+            color: #fff;
+        }
+
+        .accordion-button:focus {
+            box-shadow: none;
+        }
+
+        .accordion-item {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #170033c5;
+            color: #b98fc0;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.1rem;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <!-- Logo o nombre de la marca (Ni Una Menos) -->
+            <a class="navbar-brand" href="#">Ni Una Menos</a>
+                    <!-- Botón para dispositivos pequeños (toggle button) -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link active" href="index.html">¿Qué es la ESI?</a></li>
+                            <li class="nav-item"><a class="nav-link" href="antonellatp33.html">Ni una menos: movimiento</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="antonellatp32.html">Violencia de género</a></li>
+                            <li class="nav-item"><a class="nav-link" href="antonellatp32.html">Realizar Denuncias.</a></li>
+                            <li class="nav-item"><a class="nav-link" href="galeria.html">Galería "Ni Una Menos"</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </nav>
+
+    <!-- Sección de bienvenida -->
+    <header>
+        <div class="container">
+            <h1>3 de Junio: Ni Una Menos, El Movimiento que Exige Justicia y Igualdad</h1>
+            <p>LA <strong>VIOLENCIA</strong> DEJA MARCAS<br>NO VERLAS DEJA <strong>FEMICIDIOS</strong></p>
+        </div>
+    </header>
+
+    <!-- Migas de pan -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb container mt-3">
+            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Ni Una Menos</li>
+        </ol>
+    </nav>
+
+    <!-- Historia del Movimiento -->
+    <section id="historia" class="container mt-5">
+        <h2>La historia que desencadenó el movimiento</h2>
+         <h4> <strong>¿Cuál es la historia de Chiara Paez?</strong></h4>
+        <p>En mayo de 2015, Chiara, quien estaba embarazada de dos meses, fue asesinada brutalmente por su novio y enterrada en el patio de la casa de los abuelos del femicida. La crueldad de este hecho desencadenó una reacción masiva en las mujeres, pero más por acumulación que por sorpresa frente a la tragedia, ya que lo sucedido a Chiara no fue un caso aislado, sino uno más de los muchos femicidios que ocurren en un país donde una mujer es asesinada cada 27 horas.
+            En medio de esta situación de horror generalizado, la periodista Marcela Ojeda lanzó un desafío a través de las redes sociales: "Actrices, políticas, artistas, empresarias, referentes sociales... mujeres, todas, bah... ¿no vamos a levantar la voz? NOS ESTÁN MATANDO". Decenas de mujeres respondieron a este tuit y, en pocos días, se determinó una fecha y una consigna que, siete años después, sigue vigente: Ni Una Menos. La movilización de miles y miles de mujeres en 80 ciudades de Argentina marcó el inicio de un movimiento que se expandiría por América Latina e incluso llegó hasta España. </p>
+            <a href="https://www.eldestapeweb.com/sociedad/ni-una-menos/como-surgio-el-ni-una-menos-en-argentina--2023629580?utm_medium=paid&utm_source=Google&utm_campaign=DSA_Dinamico7&gad_source=1&gclid=Cj0KCQiA6Ou5BhCrARIsAPoTxrAxuXwnSnrmy0bqYUYbAYKMBdJmilWpiur3P8KgJELwJWvXQmeek4caAvE6EALw_wcB" class="btn btn-primary" target="_blank">Enlace Oficial</a>
+    <section id="hechos-importantes" class="container mt-5">
+        <h2>Hechos Importantes:</h2>
+        <ul>
+            <li>La Oficina de la Mujer de la Corte Suprema de Justicia de la Nación comenzó el Registro de Femicidios, una de las primeras acciones oficiales ante las demandas del movimiento, antes realizadas por organizaciones civiles.</li>
+            <li>2015: El Ministerio de Salud de la Nación creó el Protocolo para la Atención Integral de las Personas con Derecho a la Interrupción Legal del Embarazo (Protocolo ILE), que retoma los lineamientos del fallo “F.A.L” y agrega consideraciones en cuanto al concepto de salud, incluyendo aspectos físicos, psíquicos y sociales.</li>
+            <li>2016: La Defensoría del Público de la Nación publicó una «Guía para el tratamiento mediático responsable de casos de violencia contra las mujeres», difundiendo recomendaciones a los medios de comunicación.</li>
+            <li>2017: Se sancionó la Ley 27.412 de Paridad de Género en Ámbitos de Representación Política, que establece que las listas de candidatos deben incluir a mujeres y varones de manera intercalada.</li>
+            <li>2018: Se sancionó la Ley Brisa, que establece un régimen de reparación económica para los hijos de víctimas de femicidios, equivalente a una jubilación mínima, y garantiza cobertura integral de salud.</li>
+            <li>2018: Se sancionó la Ley 27.499, conocida como Ley Micaela, que establece la capacitación obligatoria en temática de género y violencia contra las mujeres para las personas que trabajen en la función pública.</li>
+            <li>2018: Se trató en el Congreso Nacional el proyecto de Ley de Interrupción Voluntaria del Embarazo.</li>
+            <li>2020: El Senado aprobó la Ley de Interrupción Voluntaria del Embarazo, permitiendo la interrupción dentro de las primeras 14 semanas de gestación, y sancionó la Ley «Plan de los Mil Días».</li>
+        </ul>
+        <a href="https://feim.org.ar/2022/06/03/ni-una-menos-2022-que-cambio-desde-la-primera-marcha/" class="btn btn-primary" target="_blank">Enlace Oficial</a>
+    </section>
+    <section>
+        <h2><strong>Más sobre el tema..</strong></h2>
+        
+        <div class="dropup-center dropup">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Aquí
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://www.manosunidas.org/ambito-ong/derechos-humanos?utm_source=gads&utm_medium=semg-prs-60&utm_campaign=derechos-humanos&tc_alt=126043&gad_source=1&gclid=Cj0KCQiA6Ou5BhCrARIsAPoTxrBndRyjEibpln7TEyhNU-iMEX0qaNU98_HiGHWkcsZdUREyrps_VFoaApDXEALw_wcB">Lucha por la desigualdad</a></li>
+              <li><a class="dropdown-item" href="https://www.argentina.gob.ar/noticias/3j-ni-una-menos-y-las-formas-de-la-violencia-economica-campana-de-ilustraciones-e">Ni una menos y las formas de violencia económica</a></li>
+              <li><a class="dropdown-item" href="https://www.surcos.org/web/movimientos-feministas-aportes-a-la-ciencia/?gad_source=1&gclid=Cj0KCQiA6Ou5BhCrARIsAPoTxrAlYHfRoXvvtYZqVrkBGlik77OIlnFuUaYId8-C48mSua3RcM3YTUkaAi4dE ">Feminismo en Argentina</a></li>
+            </ul>
+          </div>
+        
+      
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>Antonella Pastorino 5"c" <br>
+EETP 669 <br>
+profesora:Jaqueline Lingua. <br>
+@2024 Todos los derechos reservados.            
+        </p>
+    </footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
